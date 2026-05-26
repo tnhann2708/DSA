@@ -1,0 +1,14 @@
+Một mảng có n phần tử, số phép so sánh trong:
+
+a. trường hợp tốt nhất
+    x nằm ngay phần tử đầu tiên, khi đó chỉ cần so sánh 1 lần
+    độ phức tạp O(1)
+
+b. trường hợp xấu nhất
+    x nằm ở cuối mảng hoặc không tồn tại trong mảng, khi đó phép so sánh phải kiểm tra gần như toàn bộ n phần tử
+    độ phức tạp O(n) - n phụ thuộc vào số lần chạy
+
+c. trường hợp trung bình (khi phần tử có trong mảng)
+    x có khả năng xuất hiện ở mọi vị trí, phép so sánh trung bình (1+2+3+...+n)/n
+    độ phức tại O(n) - n phụ thuộc vào số lần chạy
+    

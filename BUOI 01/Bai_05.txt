@@ -1,0 +1,10 @@
+Tìm kiếm tuyến tính không cần phải được sắp xếp trước.
+Trong tìm kiếm tuyến tính (Linear Search), thuật toán sẽ:
+    Duyệt từng phần tử từ đầu đến cuối
+    So sánh trực tiếp với giá trị cần tìm.
+
+So sánh ngắn gọn:
+tiêu chí                        tìm kiếm tuyến tính         tìm kiếm nhị phân
+mảng sắp xếp                    Không                       có
+Cách hoạt động                  Duyệt từng phần tử          Chia đôi liên tục
+Hiệu quả với dữ liệu lớn        Chậm hơn                    Nhanh hơn nhiều

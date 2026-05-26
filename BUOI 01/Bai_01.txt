@@ -1,0 +1,17 @@
+Ý tưởng của thuật toán tuyến tính:
+    Duyệt lần lượt từng phần tử bắt đầu từ đầu mảng
+    Mỗi lần duyệt so sánh với giá trị cần tìm (x)
+    Nếu tìm thấy, xuất vị trí, kết thúc chương trình
+    Nếu chừa tìm thấy, nâng giá trị vị trí lên (nâng i)
+    Nếu duyệt hết mảng mà không thấy, in thông báo không có giá trị trong mảng, dừng chạy
+
+Input của thuật toán:
+    array: mảng chứa toàn bộ giá trị
+    n: độ dài mảng
+    x: giá trị cần tìm
+
+Output của thuật toán:
+    Nếu tìm thấy (a[i] == x):
+        trả về i -> xuất i ra
+    Nếu hết mảng vẫn không tìm thấy:
+        trả về -1 -> xuất thông báo "giá trị không tồn tại trong mảng"
